@@ -1,0 +1,36 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --watch",
+    "dev-server": "webpack serve"
+  },
+  "author": "Lucas Alves",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "node-sass": "^5.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "validator": "^13.5.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "babel-plugin-syntax-optional-chaining": "^7.0.0-alpha.13",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  }
+}
